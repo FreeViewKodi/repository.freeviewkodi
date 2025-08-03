@@ -1,6 +1,6 @@
     <addon id="repository.freeview-kodi"
            name="FreeViewKodi Repository"
-           version="0.0.1"
+           version="0.0.2"
            provider-name="freeviewkodi">
         <extension point="xbmc.addon.repository"
                    name="FreeViewKodi Repository">
