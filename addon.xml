@@ -21,18 +21,4 @@
             </assets>
         </extension>
     </addon>
-
-    <addon id="plugin.video.freeviewkodi"
-           name="FreeViewKodi"
-           version="1.0.0"
-           provider-name="freeviewkodi">
-        <url>https://github.com/FreeViewKodi/plugin.video.freeviewkodi/archive/refs/heads/main.zip</url>
-        <checksum></checksum>
-        <extension point="xbmc.addon.metadata">
-            <summary>The main addon for FreeViewKodi.</summary>
-            <description>A longer description of what your addon does.</description>
-            <disclaimer>A disclaimer if needed</disclaimer>
-            <platform>all</platform>
-        </extension>
-    </addon>
 </addons>
