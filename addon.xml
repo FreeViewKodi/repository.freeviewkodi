@@ -1,32 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.freeview-kodi"
-       name="FreeViewKodi Repository"
-       version="2.0.2"
-       provider-name="freeviewkodi.github.io">
-    <extension point="xbmc.addon.repository"
-               name="FreeViewKodi Repository">
-        <dir>
-            <info compressed="true">https://freeviewkodi.github.io/repo/addons.xml</info>
-            <checksum>https://freeviewkodi.github.io/repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://freeviewkodi.github.io/repo/</datadir>
-        </dir>
-
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Repository for FreeViewKodi addons</summary>
-        <description lang="en_GB">Install addons from the FreeViewKodi developer. This repository contains addons for streaming UK Freeview channels and other related content.</description>
-        <disclaimer lang="en_GB">The developer is not responsible for the content provided by the addons in this repository. All content is sourced from publicly available websites and APIs.</disclaimer>
-        <forum>http://www.freeviewkodi.com/forums</forum>
-        <source>https://freeviewkodi.github.io/repo</source>
-        <website>http://freeviewkodi.github.io</website>
-        <license>GPL-3.0-or-later</license>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-        <language>en_GB</language>
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-        <minversion>17.0</minversion>
-        <maxversion>19.9.0</maxversion>
-    </extension>
-</addon>
+    <addon id="repository.freeview-kodi"
+           name="FreeViewKodi Repository"
+           version="2.0.1"
+           provider-name="freeviewkodi">
+        <extension point="xbmc.addon.repository"
+                   name="FreeViewKodi Repository">
+            <dir>
+                <info compressed="true">https://freeviewkodi.github.io/repo/addons.xml</info>
+                <checksum>https://freeviewkodi.github.io/repo/addons.xml.md5</checksum>
+                <datadir zip="true">https://freeviewkodi.github.io/repo/</datadir>
+            </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Repository for FreeViewKodi addon</summary>
+            <description>Install addons from the FreeViewKodi developer.</description>
+            <platform>all</platform>
+            <assets>
+                <icon>icon.png</icon>
+            </assets>
+        </extension>
+    </addon>
